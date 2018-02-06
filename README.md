@@ -56,7 +56,7 @@ spyder
 
 ![](https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif)
 
-**good!**
+**Good!**
 
 
 
@@ -66,15 +66,13 @@ spyder
 
 There is an increasing amount of out-of-the-box (ootb) solutions that require only very little prior knowledge to programming. In this section we quickly skim through the mechanics behind them and look at a bunch of different ootb tools - **all** are opensource! 
 
-https://plot.ly/create/?fid=rasbt:321
-
 ### 2) R: plotly
 
 ### 3) R: shiny
 
 ### 4) Python: bokeh
 
-### 5) (R:) ggobi
+### 5) R: ggobi
 
 
 
