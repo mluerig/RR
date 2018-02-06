@@ -1,6 +1,20 @@
 
 # Interactive plotting
 
+---
+
+Hi!
+
+**Please check the dowloads section first**
+
+Everything I present will be referenced from this readme. I host all files and documents on github using 'pages' (e.g. this readme: https://mluerig.github.io/RR/README.md).
+
+Additionally there will be some apps published on shiny (e.g.: https://luerig.shinyapps.io/Sample_001a) and on my personal homepage (http://www.luerig.net/files/rr). 
+
+I hope that by the time of my talk this repository will be in a shape that allows you to simply fork it and run the code along with my presentation.
+
+---
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -16,18 +30,6 @@
 
 ---
 
-
-Hi!
-
-**Please check the dowloads section first**
-
-Everything I present will be referenced from this readme. I host all files and documents on github using 'pages' (e.g. this readme: https://mluerig.github.io/RR/README.md).
-
-Additionally there will be some apps published on shiny (e.g.: https://luerig.shinyapps.io/Sample_001a) and on my personal homepage (http://www.luerig.net/files/rr). 
-
-I hope that by the time of my talk this repository will be in a shape that allows you to simply fork it and run the code along with my presentation.
-
----
 ### 0) Downloads
 
 **R**
