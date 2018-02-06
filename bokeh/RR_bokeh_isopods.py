@@ -19,8 +19,8 @@ from bokeh.plotting import figure, output_file
 
 # specify your own workingdir, datainput, and output html
 filename = "Sample_001a.txt"
-main_dir = "E:\\GitHub\\RR_symposium\\bokeh\\"
-data_dir = "E:\\GitHub\\RR_symposium\\data\\"
+main_dir = "E:\\GitHub\\RR\\bokeh\\"
+data_dir = "E:\\GitHub\\RR\\data\\"
 output_file(os.path.join(main_dir, os.path.splitext(filename)[0] + ".html"))
 
 # load data

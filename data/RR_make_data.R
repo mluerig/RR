@@ -17,7 +17,8 @@ file$CV<-file$StdDev/file$Mean
 file$Pigmentation<-abs(file$Mean-255)/255
 file$log.Length<-log10(file$Length)
 file$Link<-paste0("https://mluerig.github.io/RR/data/images/", fn.noex,"_",file$ID, ".jpg")
-write.table(fn.noex, paste0(".txt"), sep = "\t")
+
+write.table(file, paste0(fn.noex,"processed.txt"), sep = "\t")
 
 with(file, plot(Pigmentation, Length))
 
