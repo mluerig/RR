@@ -62,9 +62,10 @@ spyder
 
 ### 1) Overview
 
-**What are interactive plots and how do I make them?**
-
-There is an increasing amount of out-of-the-box (ootb) solutions that require only very little prior knowledge to programming. In this section we quickly skim through the mechanics behind them and look at a bunch of different ootb tools - **all** are opensource! 
+There is an increasing amount of out-of-the-box solutions that require only very little prior knowledge to programming. In this section we quickly skim through a bunch of different tools and look at the mechanics behind them - **all** are opensource! 
+.
+.
+.
 
 ### 2) R: plotly
 
