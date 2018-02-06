@@ -29,7 +29,12 @@ ds = ColumnDataSource(data=dict(file))
 
 # specifiy tools
 # there are many more (https://bokeh.pydata.org/en/latest/docs/user_guide/tools.html)
-hover=HoverTool()
+hover=HoverTool(
+        tooltips = [
+        ("ID", "@ID"),
+        ("Pigmentation", "@Pigmentation"),
+        ("Length", "@Length"),
+])
 div = Div(text="")
 
 # make div (What is a "div" ? ->http://www.apaddedcell.com/what-div)
@@ -46,7 +51,6 @@ hover.callback = CustomJS(args=dict(div=div, ds=ds), code="""
         />`;
     }
 """)
-
 
 
 # make figure and layout in static html
