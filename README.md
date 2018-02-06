@@ -27,13 +27,19 @@ I hope that by the time of my talk this repository will be in a shape that allow
 
 ---
 
+
+
 ### 0) Downloads
 
 **R**
 
 I assume you have R and Rstudio installed.
 ```
-install.packages(c("rmarkdown","knitr" ,"ggplot2","shiny","plotly", "rgl", "rggobi"))
+# required
+install.packages(c("rmarkdown","knitr" ,"ggplot2","shiny","plotly", "rggobi"))
+# additional
+install.packages(c("cowplot", "rgl"))
+
 ```
 
 **Python (3.6)** 
@@ -55,6 +61,8 @@ spyder
 
 **Good!**
 
+
+
 ### 1) Overview
 
 There is an increasing amount of out-of-the-box solutions that require only very little prior knowledge to programming. In this section we quickly skim through a bunch of different tools - **all** are opensource! 
@@ -69,34 +77,46 @@ Some examples with varying degrees of responsiveness:
 
 * https://www.r-graph-gallery.com/interactive-charts/
 * https://www.r-graph-gallery.com/get-the-best-from-ggplotly/
-* https://bokeh.pydata.org/en/latest/docs/gallery.html
 * https://bokeh.pydata.org/en/latest/docs/gallery/les_mis.html
-* https://shiny.rstudio.com/gallery/
 * https://shiny.rstudio.com/gallery/genome-browser.html
-* https://plot.ly/r/
 * https://plot.ly/r/datatable/
+
 
 
 ### 2) R: plotly
 
+plotly provides a set of tools that make responsive plots. It's a somewhat simpler case of reactivity, as you cannot - at least not without the support of additional code - change what you feed into the output, but rather manipulate what it shows.
+
+**Load plotly.R in the R subrepository**
+
 1) plotly has a neat function in R that allows you to make ggplot-objects responsive:
 
-`ggplotly`
-
+`ggplotly`   
 https://plot.ly/ggplot2/
 
 2) There is also a native plotting function for R:
 
-`plot_ly`
+`plot_ly` 
+https://plot.ly/r/
 
-3) From Rstudio you can export your interactive plots as html, e.g.: 
+3) From Rstudio you can export your interactive plots as html, e.g.: https://mluerig.github.io/RR/plots/iso_plotly.html
+
+
 
 ### 3) R: shiny
+
+"shiny apps" connect R code and wrap it into an html environment to enable the full reactivity pipeline shown above, i.e. you can not only select what you see, but what goes into the plot in the first place. This is a very powerful approach, essentially enabling non programming users to interact with the vast diversity of R generated graphics and data tables. Some of these apps can become very complex, check out the gallery: https://shiny.rstudio.com/gallery/
+
+At the core of each app are two components: a ui (user interface) that determines layout and control elements that are later presented in the dynamic html, and the server that includes the R code that actually does the job. Both are connected via internal code interfaces.
+
+**Load ui.R and server.R from R subrepository**
+
+1) We start with the server. Just imagine that you are writing a normal R document, with some additional elements.
 
 
 
 ### 4) Python: bokeh
-
+* https://bokeh.pydata.org/en/latest/docs/gallery.html
 ### 5) R: ggobi
 
 
