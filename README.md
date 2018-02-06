@@ -16,9 +16,12 @@
 
 ---
 
+
 Hi!
 
-Everything I present today will be referenced from this readme. I host all files and documents on github using 'pages' (e.g. this readme: https://mluerig.github.io/RR/README.md).
+**Please check the dowloads section first**
+
+Everything I present will be referenced from this readme. I host all files and documents on github using 'pages' (e.g. this readme: https://mluerig.github.io/RR/README.md).
 
 Additionally there will be some apps published on shiny (e.g.: https://luerig.shinyapps.io/Sample_001a) and on my personal homepage (http://www.luerig.net/files/rr). 
 
@@ -27,20 +30,21 @@ I hope that by the time of my talk this repository will be in a shape that allow
 ---
 ### 0) Downloads
 
-R (I assume you have R and Rstudio installed):        
+**R** 
+I assume you have R and Rstudio installed       
 ```
 install.packages(c("rmarkdown","knitr" ,"ggplot2","shiny","plotly", "rgl", "rggobi"))
 ```
 
-Python (if you have yet to intall python I recommend https://conda.io/miniconda.html).
-To install packages go to your terminal and use `conda install`
+**Python (3.6)** 
+if you have yet to intall python I recommend https://conda.io/miniconda.html. To install packages go to your terminal and use `conda install`:
 
 ```
-conda install spyder os pandas bokeh
-
-# then run 
+conda install os pandas bokeh
+conda install spyder
 spyder
 ```
+I will use the `spyder` IDE for python, but Rstudio can also interpret .py scripts.   
 
 ### 1) Overview
 
