@@ -50,11 +50,13 @@ conda install spyder
 spyder
 ```
 
+
+
 ### 1) Overview
 
 **What are interactive plots and how do I make them?**
 
-There is an increasing amount of out-of-the-box (ootb) solutions that require only very little prior knowledge to programming:
+There is an increasing amount of out-of-the-box (ootb) solutions that require only very little prior knowledge to programming. In this section we quickly skim through the mechanics behind them and look at a bunch of different ootb tools - **all** are opensource! 
 
 https://plot.ly/create/?fid=rasbt:321
 
