@@ -50,7 +50,9 @@ conda install spyder
 spyder
 ```
 
+** Ready?**
 
+![Alt Text](https://mluerig.github.io/RR/misc/compkid.gif)
 
 ### 1) Overview
 
