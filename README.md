@@ -18,11 +18,17 @@ Everything I present today will be referenced from this readme. I host all files
 
 Additionally there will be some apps published on shiny (e.g.: https://luerig.shinyapps.io/Sample_001a) and on my personal homepage (http://www.luerig.net/files/rr). 
 
-## Outline of my presentation:
+I hope that by the time of my talk this repository will be in a shape that allows you to simply fork it and run the code along with my presentation.
+
+---
 
 ### 1) Overview
 
-What are interactive plots and how do I make them?
+**What are interactive plots and how do I make them?**
+
+There is an increasing amount of out-of-the-box (ootb) solutions that require only very little prior knowledge to programming:
+
+https://plot.ly/create/?fid=rasbt:321
 
 ### 2) R: plotly
 
