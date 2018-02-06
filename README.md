@@ -43,10 +43,12 @@ If you have yet to intall python I recommend https://conda.io/miniconda.html. To
 
 ```
 conda install os pandas bokeh
+```
+I will use the `spyder` IDE for python, but Rstudio can also interpret .py scripts.   
+```
 conda install spyder
 spyder
 ```
-I will use the `spyder` IDE for python, but Rstudio can also interpret .py scripts.   
 
 ### 1) Overview
 
