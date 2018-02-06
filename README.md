@@ -32,9 +32,10 @@ R (I assume you have R and Rstudio installed):
 install.packages(c("rmarkdown","knitr" ,"ggplot2","shiny","plotly", "rgl", "rggobi"))
 ```
 
-Python (I you have yet to intall python I recommend https://conda.io/miniconda.html):
+Python (if you have yet to intall python I recommend https://conda.io/miniconda.html).
+To install packages go to your terminal and use `conda install`
+
 ```
-# to install packages run from your terminal
 conda install spyder os pandas bokeh
 
 # then run 
