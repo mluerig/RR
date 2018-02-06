@@ -5,8 +5,9 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [RR_symposium](#rr_symposium)
-  - [Interactive plotting](#interactive-plotting)
+- [Reproducible research symposium KB 08/02/2018](#reproducible-research-symposium-kb-08022018)
+- [Interactive plotting](#interactive-plotting)
+  - [outline of my presentation:](#outline-of-my-presentation)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
