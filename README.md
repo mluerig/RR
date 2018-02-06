@@ -21,6 +21,21 @@ Additionally there will be some apps published on shiny (e.g.: https://luerig.sh
 I hope that by the time of my talk this repository will be in a shape that allows you to simply fork it and run the code along with my presentation.
 
 ---
+### 0) Downloads
+
+R (I assume you have R and Rstudio installed):        
+```
+install.packages(c("rmarkdown","knitr" ,"ggplot2","shiny","plotly", "rgl", "rggobi"))
+```
+
+Python (I you have yet to intall python I recommend https://conda.io/miniconda.html):
+```
+# to install packages run from your terminal
+conda install spyder os pandas bokeh
+
+# then run 
+spyder
+```
 
 ### 1) Overview
 
