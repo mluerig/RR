@@ -7,10 +7,20 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# RR_symposium
-Reproducible research symposium KB 02/2018
 
-## Interactive plotting
+
+# Reproducible research symposium KB 08/02/2018
+
+# Interactive plotting
+
+Hi!
+
+Everything I present today will be referenced from this readme. Everything is hosted on github using 'pages' (e.g. this readme: https://mluerig.github.io/RR/README.md)
+
+## outline of my presentation:
+
+
+
 What is interactive plotting?
 How do I make plots interactive?
 Why should I care?
