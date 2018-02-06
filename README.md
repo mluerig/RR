@@ -30,14 +30,16 @@ I hope that by the time of my talk this repository will be in a shape that allow
 ---
 ### 0) Downloads
 
-**R** 
-I assume you have R and Rstudio installed       
+**R**
+
+I assume you have R and Rstudio installed.
 ```
 install.packages(c("rmarkdown","knitr" ,"ggplot2","shiny","plotly", "rgl", "rggobi"))
 ```
 
 **Python (3.6)** 
-if you have yet to intall python I recommend https://conda.io/miniconda.html. To install packages go to your terminal and use `conda install`:
+
+If you have yet to intall python I recommend https://conda.io/miniconda.html. To install packages go to your terminal and use `conda install`:
 
 ```
 conda install os pandas bokeh
