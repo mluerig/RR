@@ -1,0 +1,12 @@
+name: Sample_001a
+title: Sample_001a
+username:
+account: luerig
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 274123
+bundleId: 1210914
+url: https://luerig.shinyapps.io/Sample_001a/
+when: 1517956553.6301
+asMultiple: FALSE
+asStatic: FALSE

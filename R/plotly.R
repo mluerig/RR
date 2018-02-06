@@ -1,13 +1,11 @@
 library(ggplot2)
 library(plotly)
+library(cowplot) # makes nice bw plots
+
 
 setwd("E://GitHub//RR//R//")
-data = "E://GitHub//RR//data//"
 
-
-
-iso<-read.delim(paste0(data, "/Sample_001a.txt"), header=T, sep="\t")
-
+iso<-read.delim("../data/Sample_001a.txt", header=T, sep="\t")
 
 # 1) ggplotly() --------------------------------------------------------
 
