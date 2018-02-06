@@ -5,12 +5,12 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-<<<<<<< HEAD
-- [Reproducible research symposium KB 08/02/2018](#reproducible-research-symposium-kb-08022018)
-=======
->>>>>>> f676678b056cad0fc9e57a6f8fe1dcfad25a27f4
-- [Interactive plotting](#interactive-plotting)
-  - [outline of my presentation:](#outline-of-my-presentation)
+- [0) Downloads](#0-downloads)
+- [1) Overview](#1-overview)
+- [2) R: plotly](#2-r-plotly)
+- [3) R: shiny](#3-r-shiny)
+- [4) Python: bokeh](#4-python-bokeh)
+- [5) (R:) ggobi](#5-r-ggobi)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -18,7 +18,6 @@
 
 Hi!
 
-# Reproducible research symposium KB 08/02/2018
 Everything I present today will be referenced from this readme. I host all files and documents on github using 'pages' (e.g. this readme: https://mluerig.github.io/RR/README.md).
 
 Additionally there will be some apps published on shiny (e.g.: https://luerig.shinyapps.io/Sample_001a) and on my personal homepage (http://www.luerig.net/files/rr). 
