@@ -52,7 +52,7 @@ spyder
 
 **Ready?**
 
-![Alt Text](https://mluerig.github.io/RR/misc/compkid.gif)
+![](https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif)
 
 **good!**
 
