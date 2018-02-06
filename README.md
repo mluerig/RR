@@ -15,7 +15,9 @@
 
 Hi!
 
-Everything I present today will be referenced from this readme. Everything is hosted on github using 'pages' (e.g. this readme: https://mluerig.github.io/RR/README.md)
+Everything I present today will be referenced from this readme. I host all files and documents on github using 'pages' (e.g. this readme: https://mluerig.github.io/RR/README.md).
+
+Additionally I will use  will be some stuff on shiny apps (https://luerig.shinyapps.io/Sample_001a) and on my personal h
 
 ## outline of my presentation:
 
