@@ -96,7 +96,11 @@ Some examples with varying degrees of interactivity:
 **We will now make some interactive plots using an isopod data set. We want to present pigmentation and body size of isopods from this scanned image:**
 
 <img src="https://luerig.net/files/rr/Sample_001a.jpg">
+
+
 ---
+
+
 ### 2) R: ggobi
 
 rggobi is the R implementation of GGobi (https://en.wikipedia.org/wiki/GGobi), a software originally designed to visualize and statistically evaluate multivariate data ("graphical MANOVA"). A comprehensive introduction is given here: http://www.ggobi.org/rggobi/introduction.pdf
@@ -105,7 +109,10 @@ rggobi is the R implementation of GGobi (https://en.wikipedia.org/wiki/GGobi), a
 
 Follow the instructions there 
 
+
 ---
+
+
 ### 3) R: plotly
 
 **plotly** provides a set of tools that make responsive rather than interactive plots. You cannot - at least not without the support of additional code - change what you feed into the output, but rather manipulate what it shows.
@@ -128,6 +135,8 @@ https://plot.ly/r/
 
 
 ---
+
+
 ### 4) R: shiny
 
 **R shiny apps** connect R code and wrap it into an html environment to enable the full reactivity pipeline shown above, i.e. you can not only select what you see, but what goes into the plot in the first place. This is a very powerful approach, essentially enabling non programming users to interact with the vast diversity of R generated graphics and data tables. Some of these apps can become very complex, check out the gallery: https://shiny.rstudio.com/gallery/
@@ -155,7 +164,10 @@ pageWithSidebar #single page with a sidebar (meaning, that there has to be a mai
 
 That's basically it. Preview the app by clicking "Run app" in the upper right corner of the source panel. If it's working, you can publish it using the little blue symbol in Rstudio, on yourname.shinyapps.io/yourapp, and send it to your friends. They WILL like it!
 
+
 ---
+
+
 ### 5) Python: bokeh
 
 **bokeh** is an relatively new platform to visualize large data quantities or data streams. At it's core, it is natively combining a responsive surface and plot surface interaction tools (as seen in plotly) with interactive elements that control data input as seen in shiny, e.g.: https://demo.bokehplots.com/apps/stocks. 
