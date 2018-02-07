@@ -19,7 +19,7 @@ from bokeh.plotting import figure, output_file
 
 # specify your own workingdir, datainput, and output html
 filename = "Sample_001a.txt"
-main_dir = "E:\\GitHub\\RR\\bokeh\\"
+main_dir = "E:\\GitHub\\RR\\plots\\"
 data_dir = "E:\\GitHub\\RR\\data\\"
 output_file(os.path.join(main_dir, os.path.splitext(filename)[0][0:11] + ".html"))
 
@@ -37,6 +37,7 @@ hover=HoverTool(
 ])
 div = Div(text="")
 
+# this is a custom java function that pulls the original data (sub images) 
 # make div (What is a "div" ? ->http://www.apaddedcell.com/what-div)
 # uses custom java script - please don't ask me about it :-)
 hover.callback = CustomJS(args=dict(div=div, ds=ds), code="""
@@ -55,7 +56,8 @@ hover.callback = CustomJS(args=dict(div=div, ds=ds), code="""
 
 # make figure and layout in static html
 p = figure(title=filename, 
-           tools=['box_select', 'reset', 'zoom_in', 'zoom_out', 'box_zoom', "tap", hover]) #, x_range=x_factor
+           tools=['box_select', 'reset', 'zoom_in', 'zoom_out', 'box_zoom', "tap", hover]) 
+           # these are the tools we want to include to interact with the responsive surface
 p.scatter(x='Length', y='Pigmentation', source=ds, size=8)
 layout = column(row(p, div))
 
