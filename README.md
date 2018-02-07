@@ -4,7 +4,7 @@
 
 Hi!
 
-**Please check the dowloads section first**
+**Please check the dowloads section first.**
 
 **Update 07/02: if you want to see your own shiny app online register at http://www.shinyapps.io/ - it's free**
 
@@ -46,12 +46,12 @@ install.packages(c("cowplot", "rgl"))
 
 **Python (3.6)** 
 
-If you have yet to intall python I recommend https://conda.io/miniconda.html. To install packages go to your terminal and use `conda install`:
+Most of what we do happens in R, so you don't really need to install python (although I highly recommend it, e.g. https://conda.io/miniconda.html). Afterwards you can install packages from terminal using `conda install` (or `pip install`):
 
 ```
 conda install os pandas bokeh
 ```
-I will use the `spyder` IDE for python, but Rstudio can also interpret .py scripts.   
+Rstudio can also interpret .py scripts. However, I will use the `spyder` IDE for python.    
 ```
 conda install spyder
 spyder
@@ -86,11 +86,11 @@ Some examples with varying degrees of interactivity:
 
 **We will now make some interactive plots using an isopod data set. We want to present pigmentation and body size of isopods from this scanned image:**
 
-![](https://mluerig.github.io/RR/data/Sample_001.jpg | width=100)
+![](https://mluerig.github.io/RR/data/Sample_001a.jpg | width=100)
 
 ### 2) R: plotly
 
-plotly provides a set of tools that make responsive rather than interactive plots. You cannot - at least not without the support of additional code - change what you feed into the output, but rather manipulate what it shows.
+**plotly** provides a set of tools that make responsive rather than interactive plots. You cannot - at least not without the support of additional code - change what you feed into the output, but rather manipulate what it shows.
 
 **Load plotly.R in the R subrepository**
 
@@ -110,7 +110,7 @@ https://plot.ly/r/
 
 ### 3) R: shiny
 
-"shiny apps" connect R code and wrap it into an html environment to enable the full reactivity pipeline shown above, i.e. you can not only select what you see, but what goes into the plot in the first place. This is a very powerful approach, essentially enabling non programming users to interact with the vast diversity of R generated graphics and data tables. Some of these apps can become very complex, check out the gallery: https://shiny.rstudio.com/gallery/
+**R shiny apps** connect R code and wrap it into an html environment to enable the full reactivity pipeline shown above, i.e. you can not only select what you see, but what goes into the plot in the first place. This is a very powerful approach, essentially enabling non programming users to interact with the vast diversity of R generated graphics and data tables. Some of these apps can become very complex, check out the gallery: https://shiny.rstudio.com/gallery/
 
 At the core of each shiny app are two components: a ui (user interface) that determines layout and control elements that are later presented in the dynamic html, and the server that includes the R code that actually does the job. Both are connected via internal code interfaces.
 
@@ -133,13 +133,21 @@ pageWithSidebar #single page with a sidebar (meaning, that there has to be a mai
   mainPanel # here the plot from server gets displayed
 ```
 
-That's basically it. Preview the app by clicking "Run app" in the upper right corner of the source panel. If it's working, you can publish it on yourname.shinyapps.io/yourapp, and send it to your friends. They WILL like it.
+That's basically it. Preview the app by clicking "Run app" in the upper right corner of the source panel. If it's working, you can publish it using the little blue symbol in Rstudio, on yourname.shinyapps.io/yourapp, and send it to your friends. They WILL like it!
 
 
 ### 4) Python: bokeh
 
+**bokeh** is an relatively new platform to visualize large data quantities or data streams. At it's core, it is natively combining a responsive surface and plot surface interaction tools (as seen in plotly) with interactive elements that control data input as seen in shiny, e.g.: https://demo.bokehplots.com/apps/stocks. 
 
-* https://bokeh.pydata.org/en/latest/docs/gallery.html
+Sidenote: it is possible to run plotly in a shiny app (https://plot.ly/r/shinyapp-linked-brush/) and also to run shiny as well as plotly under python https://plot.ly/python/.
+
+Although available for R (http://hafen.github.io/rbokeh/#preview), bokeh unleashes its full power under python, where it is highly customizable and able to interface with other languages (custom html and java script snippets can be included). So, although still under development, bokeh is an extremely powerful toolbox for interactive graphics https://bokeh.pydata.org/en/latest/docs/gallery.html
+
+**I have prepared a script written in python, to be found in the bokeh folder**
+
+
+
 ### 5) R: ggobi
 
 
