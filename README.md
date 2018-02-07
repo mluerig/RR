@@ -59,7 +59,7 @@ spyder
 
 **Ready?**
 
-![](https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif | width = 1000)
+![](https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif)
 
 **Good!**
 
@@ -86,7 +86,7 @@ Some examples with varying degrees of interactivity:
 
 **We will now make some interactive plots using an isopod data set. We want to present pigmentation and body size of isopods from this scanned image:**
 
-<img src="https://luerig.net/files/rr/Sample_001a.jpg" width="1000">
+<img src="https://luerig.net/files/rr/Sample_001a.jpg">
 
 ### 2) R: plotly
 
@@ -144,7 +144,7 @@ Sidenote: it is possible to run plotly in a shiny app (https://plot.ly/r/shinyap
 
 Although available for R (http://hafen.github.io/rbokeh/#preview), bokeh unleashes its full power under python, where it is highly customizable and able to interface with other languages (custom html and java script snippets can be included). So, although still under development, bokeh is an extremely powerful toolbox for interactive graphics https://bokeh.pydata.org/en/latest/docs/gallery.html
 
-**I have prepared a script written in python, to be found in the bokeh folder**
+**I have prepared a bokeh script written in python: open RR_bokeh_isopods.py in the bokeh folder**
 
 
 
