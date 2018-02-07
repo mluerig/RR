@@ -7,6 +7,8 @@ pageWithSidebar(
   headerPanel("Sample 001"),
   
   sidebarPanel(
+
+    
     # checkboxes with input
     checkboxGroupInput("fam", # this will be our hook (input$fam on the server side)
                        c("Choose families:"),
@@ -17,6 +19,8 @@ pageWithSidebar(
                          list("fam1", "fam2", "fam3", "fam4"), 
                               selected = "fam1"
     )
+    
+    
     ),
 
   mainPanel(plotOutput('plot1') # sent over from server

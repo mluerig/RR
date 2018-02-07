@@ -5,7 +5,7 @@ library(plotly)
 library(cowplot) 
 
 # ... and source data ...
-iso<-read.delim("Sample_001b.txt", header=T, sep="\t") # n
+iso<-read.delim("Sample_001a.txt", header=T, sep="\t") # n
 # ... but not the working directory, this is be default the app folder
 
 
