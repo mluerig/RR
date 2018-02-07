@@ -119,9 +119,9 @@ At the core of each shiny app are two components: a ui (user interface) that det
 **Load ui.R and server.R from R subrepository**
 
 1) We start with the server. Just imagine that you are writing a normal R document, with some additional elements. At the minimum we need to do three things:
-* load the packages we need
+* load the required packages
 * data to feed the plot
-* and the plotting function (in this case again ggplot2)
+* the plotting function (in this case again ggplot2)
 
 The plotting function has to be wrapped in a reactive enviornment that will receive input from the ui.R, generate the plot, and send it back to the ui to display.
 
@@ -148,6 +148,13 @@ Although available for R (http://hafen.github.io/rbokeh/#preview), bokeh unleash
 
 **I have prepared a bokeh script written in python: open RR_bokeh_isopods.py in the bokeh folder**
 
+It rougly follows the generalities of what we have seen above:
+
+1) load packages and data
+2) chose type of plot and tools to include
+3) render plot and push to html
+
+I have included a custom java snipped that returns the original phenotypic data when hovering over each data point - try it.
 
 
 ### 5) R: ggobi
