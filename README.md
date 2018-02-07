@@ -133,7 +133,13 @@ https://plot.ly/ggplot2/
 
 https://plot.ly/r/
 
-3) From Rstudio you can export your interactive plots as html, e.g.: https://mluerig.github.io/RR/plots/iso_plotly.html
+
+3) Works also from Rmardown: see plotly.Rmd
+
+
+4) From Rstudio you can export your interactive plots as html: https://mluerig.github.io/RR/plots/iso_plotly.html
+
+Go to the viewer panel and select "save as webpage"
 
 
 ---
@@ -165,6 +171,10 @@ pageWithSidebar #single page with a sidebar (meaning, that there has to be a mai
 ```
 
 That's basically it. Preview the app by clicking "Run app" in the upper right corner of the source panel. If it's working, you can publish it using the little blue symbol in Rstudio, on yourname.shinyapps.io/yourapp, and send it to your friends. They WILL like it!
+
+
+3) Works with Rmarkdown as well: open shiny.Rmd. This time it contains ui and server in a single file. Run it and look at the results
+
 
 
 ---
