@@ -1,0 +1,24 @@
+---
+title: "plotly"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(plotly)
+library(cowplot) # makes nice bw plots
+
+
+setwd("E://GitHub//RR//R//")
+
+iso<-read.delim("../data/Sample_001a.txt", header=T, sep="\t")
+```
+
+
+```{r plot}
+p<-ggplot(iso, aes(x=Length, y=Pigmentation, colour=Family)) +
+  geom_point()
+
+ggplotly(p)
+  
+```
