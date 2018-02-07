@@ -1,0 +1,12 @@
+name: app123
+title: app123
+username:
+account: luerig
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 274578
+bundleId: 1212042
+url: https://luerig.shinyapps.io/app123/
+when: 1518018119.49607
+asMultiple: FALSE
+asStatic: FALSE

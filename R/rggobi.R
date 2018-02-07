@@ -2,6 +2,7 @@ library(ggplot2)
 library(rggobi)
 library(cowplot) # makes nice bw plots
 
+rm(list = ls())
 
 setwd("E://GitHub//RR//R//")
 
@@ -21,8 +22,9 @@ p<-ggplot(iso, aes(x=Length, y=Pigmentation, colour=Family)) +
 
 p
 
+str(g)
 
-
+g[1]
 # send to ggobi
 g <- ggobi(iso)
 
