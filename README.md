@@ -136,6 +136,7 @@ https://plot.ly/r/
 
 3) Works also from Rmardown: see plotly.Rmd
 
+https://mluerig.github.io/RR/R/plotly.html
 
 4) From Rstudio you can export your interactive plots as html: https://mluerig.github.io/RR/plots/iso_plotly.html
 
