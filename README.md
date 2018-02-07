@@ -1,6 +1,8 @@
-# Interactive plotting
+During the talk you can ask me questions at http://www.disposablechat.com/chat/interactive-plots.
+------
 
----
+
+# Interactive plotting
 
 Hi!
 
