@@ -59,7 +59,7 @@ spyder
 
 **Ready?**
 
-![](https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif)
+![](https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif | width = 1000)
 
 **Good!**
 
@@ -86,7 +86,7 @@ Some examples with varying degrees of interactivity:
 
 **We will now make some interactive plots using an isopod data set. We want to present pigmentation and body size of isopods from this scanned image:**
 
-![](https://luerig.net/files/rr/Sample_001a.jpg)
+<img src="https://luerig.net/files/rr/Sample_001a.jpg" width="1000">
 
 ### 2) R: plotly
 
