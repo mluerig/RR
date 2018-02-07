@@ -23,10 +23,10 @@ I hope that by the time of my talk this repository will be in a shape that allow
 
 - [0) Downloads](#0-downloads)
 - [1) Overview](#1-overview)
-- [2) R: plotly](#2-r-plotly)
-- [3) R: shiny](#3-r-shiny)
-- [4) Python: bokeh](#4-python-bokeh)
-- [5) (R:) ggobi](#5-r-ggobi)
+- [2) R: ggobi](#2-r-ggobi)
+- [3) R: plotly](#3-r-plotly)
+- [4) R: shiny](#4-r-shiny)
+- [5) Python: bokeh](#5-python-bokeh)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
