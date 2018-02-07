@@ -86,7 +86,7 @@ Some examples with varying degrees of interactivity:
 
 **We will now make some interactive plots using an isopod data set. We want to present pigmentation and body size of isopods from this scanned image:**
 
-![](https://mluerig.github.io/RR/data/Sample_001a.jpg)
+![](https://luerig.net/files/rr/Sample_001a.jpg)
 
 ### 2) R: plotly
 
