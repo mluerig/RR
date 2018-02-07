@@ -177,7 +177,7 @@ That's basically it. Preview the app by clicking "Run app" in the upper right co
 Although available for R (http://hafen.github.io/rbokeh/#preview), bokeh unleashes its full power under python, where it is highly customizable and able to interface with other languages (custom html and java script snippets can be included). So, although still under development, bokeh is an extremely powerful toolbox for interactive graphics https://bokeh.pydata.org/en/latest/docs/gallery.html
 
 
-**Open, but not run "bokeh/RR_bokeh_isopods.py" either with Rstudio or any python interpreter **
+**Open, but not run "bokeh/RR_bokeh_isopods.py" either with Rstudio or any python interpreter**
 
 It rougly follows the generalities of what we have seen above:
 
@@ -189,6 +189,16 @@ Just click yourself through the elements.
 
 I have included a custom java snipped that returns the original phenotypic data when hovering over each data point - try it.
 
+https://mluerig.github.io/RR/plots/Sample_001a.html
+
+
+---
+
+That's it. Thanks for watching :-)
+
+
+
+![](http://www.reactiongifs.com/r/pwave.gif)
 
 
 
